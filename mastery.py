@@ -32,5 +32,19 @@ while True:
         print("You have stopped the program.")
         break
     roomnum_six = int(input("What is that classes' room number?: "))
+
+        if (len(class_one) <= 5):
+        class_one = (class_one + "\t")
+    if (len(class_two) <= 5):
+        class_two = (class_two + "\t")
+    if (len(class_three) <= 5):
+        class_three = (class_three + "\t")
+    if (len(class_four) <= 5):
+        class_four = (class_four + "\t")
+    if (len(class_five) <= 5):
+        class_five = (class_five + "\t")
+    if (len(class_six) <= 5):
+        class_six = (class_six + "\t")
+    
     print("*************************************************\n*\t\t\t\t\t\t*\n*\t{}, {}\t\t ID:{} \t*\n*\t\t\t\t\t\t*\n*************************************************\n*\t\t\t\t\t\t*\n*\t Class 1: {}\t Room: {}\t*\n*\t Class 2: {}\t Room: {}\t*\n*\t Class 3: {}\t Room: {}\t*\n*\t Class 4: {}\t Room: {}\t*\n*\t Class 5: {}\t Room: {}\t*\n*\t Class 6: {}\t Room: {}\t*\n*\t\t\t\t\t\t*\n*************************************************\n*\t\t\t\t\t\t*\n*************************************************".format(last_name, first_name, student_id, class_one, roomnum_one, class_two, roomnum_two, class_three, roomnum_three, class_four, roomnum_four, class_five, roomnum_five, class_six, roomnum_six))
     break
